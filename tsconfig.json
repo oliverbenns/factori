@@ -1,0 +1,4 @@
+{
+	"exclude": ["src/**/*.index.ts"],
+	"lib": ["es2015"]
+}
