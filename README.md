@@ -2,6 +2,12 @@
 
 A minimal Factory pattern in Typescript.
 
+## Installation
+
+```
+npm install factori --save
+```
+
 ## Documentation
 
 Simple docs for a simple library.
