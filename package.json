@@ -1,16 +1,16 @@
 {
-	"name": "factory-whirl",
+	"name": "factori",
 	"version": "0.0.1",
 	"description": "",
-	"main": "./lib/index.js",
-	"types": "./lib/index.d.ts",
+	"main": "./lib/factori.js",
+	"types": "./lib/factori.d.ts",
 	"scripts": {
 		"build": "rm -rf lib && tsc",
 		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/oliverbenns/factory-whirl.git"
+		"url": "git+https://github.com/oliverbenns/factori.git"
 	},
 	"author": {
 		"name": "Oliver Benns",
@@ -19,9 +19,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/oliverbenns/factory-whirl/issues"
+		"url": "https://github.com/oliverbenns/factori/issues"
 	},
-	"homepage": "https://github.com/oliverbenns/factory-whirl#readme",
+	"homepage": "https://github.com/oliverbenns/factori#readme",
 	"devDependencies": {
 		"@babel/preset-env": "^7.9.6",
 		"@babel/preset-typescript": "^7.9.0",

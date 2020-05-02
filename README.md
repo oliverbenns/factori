@@ -1,4 +1,4 @@
-# Factory Whirl
+# Factori
 
 A minimal, typed, factory pattern, allowing quick generation of data, useful for tests.
 
@@ -7,7 +7,7 @@ A minimal, typed, factory pattern, allowing quick generation of data, useful for
 Simple docs for a simple library.
 
 ```typescript
-import Factory from "factory-whirl";
+import Factory from "factori";
 
 interface Product {
 	id: number;

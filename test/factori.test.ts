@@ -1,4 +1,4 @@
-import Factory from "../src/factorywhirl";
+import Factory from "../src/factori";
 
 interface Product {
 	id: number;
