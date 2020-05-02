@@ -11,8 +11,6 @@ class Factory<T extends object> {
 	private createItem(data: Partial<T> = {}): T {
 		// @NOTE: This limits us to not having nested objects.
 		// Nested objects will be shared amongst creations.
-		// Ways we might fix this could be use TS ReadOnly
-		// or pass in options into constructor with a merge type and use _.cloneDeep.
 		return { ...this.defaultData, ...data };
 	}
 
