@@ -54,7 +54,7 @@ const results = productFactory.createList(2, (product, index) => ({
 
 ## Roadmap
 
-I have no current plans to extend this. However a couple of ideas spring to mind:
+_Someday…_
 
 - Adding option to deep copy. This would fix nested object references which would be shared across instances. Disabled by default for performance reasons.
 - Adding incremental fields to auto-increment, e.g. `{ id: new Incrementor(i => i + 1) }`. This would allow easier incremental updates on all methods as the only way to do that currently is to create an array and use the index in the map function. However the objects do become less predictable this way, especially with concurrent operations.
