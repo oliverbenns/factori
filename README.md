@@ -1,6 +1,6 @@
 # Factori
 
-A minimal, typed, factory pattern, allowing quick generation of data, useful for tests.
+A minimal, typescript, factory pattern.
 
 ## Documentation
 
