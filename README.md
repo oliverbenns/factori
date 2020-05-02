@@ -1,6 +1,6 @@
 # Factori
 
-A minimal, typescript, factory pattern.
+A minimal Factory pattern in Typescript.
 
 ## Documentation
 

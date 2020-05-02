@@ -1,7 +1,7 @@
 {
 	"name": "factori",
 	"version": "0.0.1",
-	"description": "A minimal, typescript, factory pattern.",
+	"description": "A minimal Factory pattern in Typescript.",
 	"main": "./lib/factori.js",
 	"types": "./lib/factori.d.ts",
 	"scripts": {
