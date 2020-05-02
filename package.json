@@ -1,6 +1,6 @@
 {
 	"name": "factori",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A minimal Factory pattern in Typescript.",
 	"keywords": [
 		"factory",
@@ -10,6 +10,10 @@
 	],
 	"main": "./lib/factori.js",
 	"types": "./lib/factori.d.ts",
+	"files": [
+		"lib",
+		"src"
+	],
 	"scripts": {
 		"build": "rm -rf lib && tsc",
 		"test": "jest"
