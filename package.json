@@ -2,6 +2,12 @@
 	"name": "factori",
 	"version": "0.0.1",
 	"description": "A minimal Factory pattern in Typescript.",
+	"keywords": [
+		"factory",
+		"typescript",
+		"pattern",
+		"test"
+	],
 	"main": "./lib/factori.js",
 	"types": "./lib/factori.d.ts",
 	"scripts": {
