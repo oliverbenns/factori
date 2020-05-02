@@ -1,4 +1,11 @@
 {
-	"exclude": ["src/**/*.index.ts"],
-	"lib": ["es2015"]
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"declaration": true,
+		"outDir": "lib",
+		"strict": true,
+		"lib": ["es2015"]
+	},
+	"include": ["src"]
 }
